@@ -51,7 +51,7 @@ class API
         $log->debug('add listener to notifications package');
         $package = Packages::package('notifications');
         if ($package) {
-            $package->addEvent($event, listeners\Events::class.'@handle');
+            $package->addEvent($event, Listeners\Events::class.'@handle');
         }
         self::$events[] = $event;
     }
