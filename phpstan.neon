@@ -3,5 +3,4 @@ parameters:
   scanDirectories:
     - ../base
     - ../userpanel
-  ignoreErrors:
-    - "/(Class|Interface|Trait) .+ referenced with incorrect case/"
+
