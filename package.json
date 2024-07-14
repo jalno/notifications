@@ -4,8 +4,8 @@
 	},
 	"events": [
 		{
-			"name":"packages/base/events/PackagesLoaded",
-			"listener": "listeners/Base@packagesLoaded"
+			"name":"packages/base/Events/PackagesLoaded",
+			"listener": "packages/notifications/Listeners/Base@packagesLoaded"
 		}
 	]
 }
